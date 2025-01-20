@@ -38,7 +38,7 @@ namespace ApiCrud
 
             app.UseHttpsRedirection();
             app.UseAuthorization();
-
+            
             // Memetakan endpoint FastEndpoints
             app.UseFastEndpoints();
 
