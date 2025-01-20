@@ -103,3 +103,11 @@ D:\New folder\test kerja\PT. Inovasi Dinamika Solusi\ApiCrud\bin\Debug\net8.0\ru
 D:\New folder\test kerja\PT. Inovasi Dinamika Solusi\ApiCrud\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\New folder\test kerja\PT. Inovasi Dinamika Solusi\ApiCrud\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\New folder\test kerja\PT. Inovasi Dinamika Solusi\ApiCrud\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\New folder\test kerja\PT. Inovasi Dinamika Solusi\ApiCrud\obj\Debug\net8.0\ApiCrud.sourcelink.json
+D:\New folder\test kerja\PT. Inovasi Dinamika Solusi\ApiCrud\bin\Debug\net8.0\FastEndpoints.dll
+D:\New folder\test kerja\PT. Inovasi Dinamika Solusi\ApiCrud\bin\Debug\net8.0\FastEndpoints.Attributes.dll
+D:\New folder\test kerja\PT. Inovasi Dinamika Solusi\ApiCrud\bin\Debug\net8.0\FastEndpoints.Messaging.Core.dll
+D:\New folder\test kerja\PT. Inovasi Dinamika Solusi\ApiCrud\bin\Debug\net8.0\FluentValidation.dll
+D:\New folder\test kerja\PT. Inovasi Dinamika Solusi\ApiCrud\bin\Debug\net8.0\MediatR.dll
+D:\New folder\test kerja\PT. Inovasi Dinamika Solusi\ApiCrud\bin\Debug\net8.0\MediatR.Contracts.dll
+D:\New folder\test kerja\PT. Inovasi Dinamika Solusi\ApiCrud\bin\Debug\net8.0\MediatR.Extensions.Microsoft.DependencyInjection.dll

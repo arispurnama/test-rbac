@@ -1,81 +1,102 @@
 [
   {
-    "ContainingType": "ApiCrud.Controllers.ProductController",
-    "Method": "GetProducts",
-    "RelativePath": "Product",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "ApiCrud.Controllers.ProductController",
-    "Method": "PostProduct",
-    "RelativePath": "Product",
+    "ContainingType": "FastEndpoints.MainExtensions\u002B\u003C\u003Ec",
+    "Method": "\u003CMapFastEndpoints\u003Eb__2_1",
+    "RelativePath": "api/permision",
     "HttpMethod": "POST",
-    "IsController": true,
+    "IsController": false,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "product",
-        "Type": "ApiCrud.Models.ProductsRequest",
+        "Name": "CreatePermissionRequest",
+        "Type": "ApiCrud.Contracts.Requests.CreatePermissionRequest",
         "IsRequired": true
       }
     ],
-    "ReturnTypes": []
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      }
+    ]
   },
   {
-    "ContainingType": "ApiCrud.Controllers.ProductController",
-    "Method": "PutProduct",
-    "RelativePath": "Product/{id}",
-    "HttpMethod": "PUT",
-    "IsController": true,
+    "ContainingType": "FastEndpoints.MainExtensions\u002B\u003C\u003Ec",
+    "Method": "\u003CMapFastEndpoints\u003Eb__2_1",
+    "RelativePath": "api/permision/{Id}",
+    "HttpMethod": "PATCH",
+    "IsController": false,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "id",
-        "Type": "System.Int32",
+        "Name": "EditPermissionRequest",
+        "Type": "ApiCrud.Contracts.Requests.EditPermissionRequest",
         "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      }
+    ]
+  },
+  {
+    "ContainingType": "FastEndpoints.MainExtensions\u002B\u003C\u003Ec",
+    "Method": "\u003CMapFastEndpoints\u003Eb__2_1",
+    "RelativePath": "api/permission",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PageRequest",
+        "Type": "ApiCrud.Contracts.Requests.PageRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ApiCrud.Contracts.Responses.ApiPages\u00601[[ApiCrud.Models.Permission, ApiCrud, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
       },
       {
-        "Name": "product",
-        "Type": "ApiCrud.Models.UpdateProductsRequest",
-        "IsRequired": true
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 401
       }
-    ],
-    "ReturnTypes": []
+    ]
   },
   {
-    "ContainingType": "ApiCrud.Controllers.ProductController",
-    "Method": "DeleteProduct",
-    "RelativePath": "Product/{id}",
+    "ContainingType": "FastEndpoints.MainExtensions\u002B\u003C\u003Ec",
+    "Method": "\u003CMapFastEndpoints\u003Eb__2_1",
+    "RelativePath": "api/permission/{Id}",
     "HttpMethod": "DELETE",
-    "IsController": true,
+    "IsController": false,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "id",
-        "Type": "System.Int32",
+        "Name": "DeleteRequest",
+        "Type": "ApiCrud.Contracts.Requests.DeleteRequest",
         "IsRequired": true
       }
     ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "ApiCrud.Controllers.ProductController",
-    "Method": "GetProduct",
-    "RelativePath": "Product/{id}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
+    "ReturnTypes": [
       {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 401
       }
-    ],
-    "ReturnTypes": []
+    ]
   }
 ]

@@ -1,0 +1,12 @@
+﻿using System.ComponentModel.DataAnnotations.Schema;
+using System.ComponentModel.DataAnnotations;
+
+namespace ApiCrud.Models;
+public class Permission
+{
+    [Key]
+    [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+    public int PermissionId { get; set; }
+    public string PermissionName { get; set; }
+    public ICollection<RolePermission> RolePermissions { get; set; }
+}
